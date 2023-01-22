@@ -8,8 +8,8 @@ const routes: Routes = [
     component: TabsPage,
     children: [
       {
-        path: 'tab1',
-        loadChildren: () => import('../daily-form-tab/daily-form-tab.module').then(m => m.Tab1PageModule)
+        path: 'myday',
+        loadChildren: () => import('../daily-form-tab/daily-form-tab.module').then(m => m.DailyFormTabPageModule)
       },
       {
         path: 'tab2',

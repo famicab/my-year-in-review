@@ -1,7 +1,7 @@
 import { Component } from '@angular/core';
 
 @Component({
-  selector: 'app-tab1',
+  selector: 'app-day',
   templateUrl: 'daily-form-tab.page.html',
   styleUrls: ['daily-form-tab.page.scss']
 })

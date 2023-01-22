@@ -3,7 +3,7 @@ import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { FormsModule } from '@angular/forms';
 import { DailyFormTabPage } from './daily-form-tab.page';
-import { ExploreContainerComponentModule } from '../explore-container/explore-container.module';
+import { FormContainerComponentModule } from '../form-container/form-container.module';
 
 import { DailyFormTabPageRoutingModule } from './daily-form-tab-routing.module';
 
@@ -12,9 +12,9 @@ import { DailyFormTabPageRoutingModule } from './daily-form-tab-routing.module';
     IonicModule,
     CommonModule,
     FormsModule,
-    ExploreContainerComponentModule,
+    FormContainerComponentModule,
     DailyFormTabPageRoutingModule
   ],
   declarations: [DailyFormTabPage]
 })
-export class Tab1PageModule {}
+export class DailyFormTabPageModule {}
