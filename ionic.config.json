@@ -1,0 +1,7 @@
+{
+  "name": "my-year-in-review",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}
